@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model  # type: ignore
 
 # load trained model
 model = load_model("models/smart_bin_model_v2.h5")
