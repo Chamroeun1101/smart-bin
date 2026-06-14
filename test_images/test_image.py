@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 model = load_model("models/smart_bin_model_v2.h5")
 
 # Image path
-img_path = "test_images/flosh.jpg"
+img_path = "test_images/photo_2026-05-17_11-51-40.jpg"
 
 # Load and resize image
 img = image.load_img(img_path, target_size=(224, 224))
